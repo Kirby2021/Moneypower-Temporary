@@ -1,0 +1,19 @@
+{
+  "author": "noodle",
+  "name": "Moderation",
+  "version": "1.0.0",
+  "description": "Discord Moderation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "13.x"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1"
+  }
+}
+ 
