@@ -18,7 +18,7 @@ Tata cara penggunaan atau informasi code => {<br>
 🔵- Jadi bot ini di gunakan untuk tujuan private channel atau yang biasa di sebut auto voice channel.<br>
 🟡- Sesuaikan channel id dan category dimana channel akan terbuat, saran saya, semua itu di letakkan di env supaya terjaga aman.<br>
 🟠- CategoryID, ChannelID, Token di letakkan di env.<br>
-🟢- Bot akan tetap menghapus channel jika dia ter refresh atau mati sejenak lalu menyala, karena ada code yang bertujuan untuk mem-filter category. Jika terdetect channel yang sizenya === 0, makan channel akan terdelete.<br>
+🟢- Bot akan tetap menghapus channel jika dia ter refresh atau mati sejenak lalu menyala, karena ada code yang bertujuan untuk mem-filter category. Jika terdetect channel yang sizenya === 0, maka channel akan terdelete.<br>
 🟣- Penanggulangan Error yang sangat mudah.<br>
 🟤- Permission yang perlu di setup adalah category saja, selebihnya sudah diatur oleh BOT<br>
 ⚫- Tidak perlu memberikan role bot dengan permission MANAGE_CHANNELS, cukup berikan permission di category saja 👍.<br>
