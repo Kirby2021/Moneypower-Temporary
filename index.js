@@ -125,8 +125,8 @@ client.on('voiceStateUpdate', async (oldState, newState) => {
  //FILTER THE CHANNEL IF THE SIZE HAS 0   
     if(oldState.channel) {
         let filtered = (ch) =>
-            (ch.parentID === process.env.Category)
-            && (ch.id !== process.env.VoiceChannels)
+            (ch.parentID === process.env.CategoryID)
+            && (ch.id !== process.env.VoiceChannelID)
             && (oldState.channelID == ch.id)
             && (oldState.channel.members.size === 0);
         
