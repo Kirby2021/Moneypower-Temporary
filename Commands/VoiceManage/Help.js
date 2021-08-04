@@ -28,7 +28,7 @@ module.exports = {
                     inline: false
                 }
            
-    )
+    ) 
     .setColor("PURPLE")
     .setFooter(`${client.user.username} Created by ${message.author.username} with Logic`)
     
