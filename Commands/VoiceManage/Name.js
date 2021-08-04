@@ -32,7 +32,7 @@ if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
                       })
   
   if (message.member.voice.channel) {
-  let name = args.join(' ') 
+  let name = args.join(' ')  
   
   let ngentot = new MessageEmbed()  
   .setTitle("Channel Edited")
