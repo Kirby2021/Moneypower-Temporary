@@ -46,10 +46,10 @@ if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
   
   .setTitle("Channel Edited")
   .setDescription(`\`🔨\` Channel Bitrate edited by **${message.author.username}** into **${bitrate}**`)
-  .setFooter(`© ${message.guild.name} 2021`)
+  .setFooter(`© MONEYPOWER 2021`)
   .setColor("GREEN")
   
-  message.inlineReply(ika)     
+  message.inlineReply(ika)
   let channel = message.guild.channels.cache.get(message.member.voice.channel.id);
   for (const [memberID, member] of channel.members) {
     
