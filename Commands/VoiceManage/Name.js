@@ -37,7 +37,7 @@ if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
   let ngentot = new MessageEmbed()  
   .setTitle("Channel Edited")
   .setDescription(`Channel Name edited by **${message.author.username}** into **${name}**`)
-  .setFooter(`© Development`)
+  .setFooter(`© MONEYPOWER 2021`)
   .setColor("GREEN")
   message.inlineReply(ngentot)     
              
