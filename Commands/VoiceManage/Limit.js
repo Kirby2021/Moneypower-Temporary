@@ -40,7 +40,7 @@ if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
   
   .setTitle("Channel Edited")
   .setDescription(`Channel Limit edited by **${message.author.username}** into **${limit}**`)
-  .setFooter(`© Development`)
+  .setFooter(`© MONEYPOWER 2021`)
   .setColor("GREEN")
   
   message.inlineReply(ika)     
