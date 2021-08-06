@@ -7,6 +7,7 @@ const client = new Discord.Client();
 const cooldowns = new Discord.Collection()
 const CatLoggr = require("cat-loggr")
 const { PREFIX } = require("./config.json")
+const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 client.login(process.env.TOKEN)
 
 client.on(`ready`, (message) => {
