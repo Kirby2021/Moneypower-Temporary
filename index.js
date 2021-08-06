@@ -4,11 +4,10 @@ const { Client } = require('discord.js')
 const fs = require("fs")
 const client = new Discord.Client();
 const cooldowns = new Discord.Collection()
-const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 const CatLoggr = require("cat-loggr")
 const { PREFIX } = require("./config.json")
+client.login(process.env.TOKEN)
 
-//READY LOGGED AS BOT NICKNAME
 client.on(`ready`, (message) => {
   try {
   client.logger.init(`✅ Logged as ${client.user.username}`)
@@ -33,7 +32,7 @@ client.on("ready", (message => {
  setInterval(() => {
  
    const status = [        
-     `Laurine`,        
+     `MoneyPower TempVoice`,        
      ];
    let random = Math.floor(Math.random() * status.length);
    client.user.setActivity({
@@ -143,7 +142,4 @@ client.commands = new Discord.Collection()
 client.prefix = PREFIX
 client.aliases = new Discord.Collection()
 client.logger = new CatLoggr()
-client.login(process.env.TOKEN)
-//UPTIME AND INLINEREPLY SUPPORT
-require("./Support.js")()
 require("./InlineMessage");
