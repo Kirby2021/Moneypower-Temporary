@@ -2,3 +2,4 @@
 <h3>Please configure the category and the channel</h3>
 
 <h4>The bot doesnt need any role, you can just give a permission in Specify Category to manage</h4>
+<h5>https://discord.gg/moneypower</h5>
