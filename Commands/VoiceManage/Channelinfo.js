@@ -25,6 +25,7 @@ module.exports = {
             .addField("**Channel Description**", `${channel.topic || "No Description"}`)
             .addField("**Channel Created Date**", channel.createdAt)
             .setColor("GREEN")
+	.setFooter("MONEY POWER")
         message.channel.send(channelembed);
       
     
