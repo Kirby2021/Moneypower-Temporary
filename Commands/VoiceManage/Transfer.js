@@ -48,7 +48,7 @@ let ikan = new MessageEmbed()
 \`⚠\` Previous Owner : <@${message.member.id}>
 \`✅\` Current Author : <@${user.id}>
   `)
-  .setFooter(`© ${message.guild.name} 2021`)
+  .setFooter(`© MONEYPOWER 2021`)
   .setColor("GREEN")
 throw  message.inlineReply(ikan)
 
