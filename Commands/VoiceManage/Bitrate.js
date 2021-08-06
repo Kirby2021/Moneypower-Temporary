@@ -21,10 +21,10 @@ if (!channel)return message.channel.send({
    
                    })
 if (!message.member.permissionsIn(channel).has('MANAGE_CHANNELS'))
-  return message.inlineReply('<:Nope1:866123283480051723> The channel is owned');
+  return message.inlineReply('⚠ - The channel is owned');
 
 if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
-  return message.inlineReply('<:Nope1:866123283480051723> I dont have authority to manage'); 
+  return message.inlineReply('⚠ - I dont have authority to manage'); 
  
        
     
@@ -40,8 +40,8 @@ if (!message.guild.me.permissionsIn(channel).has('MANAGE_CHANNELS'))
   if (message.member.voice.channel) {
   
   let bitrate = args.join(' ') || isNaN(args).number
-  if(bitrate < 8) return message.inlineReply("<:Nope1:866123283480051723> You cant set bitrate under 8Kbps, because the lower is 8Kbps")
-  if(bitrate > 384) return message.inlineReply("<:Nope1:866123283480051723> You cant set bitrate higher 384Kbps, because the bitrate limit is 384Kbps")
+  if(bitrate < 8) return message.inlineReply("⚠ - You cant set bitrate under 8Kbps, because the lower is 8Kbps")
+  if(bitrate > 384) return message.inlineReply("⚠ - You cant set bitrate higher 384Kbps, because the bitrate limit is 384Kbps")
   let ika = new Discord.MessageEmbed()
   
   .setTitle("Channel Edited")
