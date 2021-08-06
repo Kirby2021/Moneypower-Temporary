@@ -1,11 +1,11 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-	name: 'Help',
+	name: 'Support',
 	description: 'List all of my commands or info about a specific command.',
   guildOnly: false,
   myServerOnly: false,
-	aliases: ['a'],
+	aliases: ['support'],
 	usage: `help <command_name>`,
 	cooldown: 5,
 	run: async (client, message, args) => {
