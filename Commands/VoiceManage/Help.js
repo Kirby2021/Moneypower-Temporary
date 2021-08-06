@@ -19,7 +19,7 @@ module.exports = {
 		.setAuthor(client.user.username)
     .setDescription("Commands State\nIf you want to get information about our commands, you can try to find with `Help_Cmdname`. For example `Help Limit`.")
     .setThumbnail(client.user.displayAvatarURL())
-    .setFooter("Support by Fan.#7108 discord.gg/moneypower")
+    .setFooter("Support by Fan#7108 discord.gg/moneypower")
     .addFields(
                 
                 {
