@@ -19,12 +19,12 @@ module.exports = {
 		.setAuthor(client.user.username)
     .setDescription("Commands State\nIf you want to get information about our commands, you can try to find with `Help_Cmdname`. For example `Help Limit`.")
     .setThumbnail(client.user.displayAvatarURL())
-    .setFooter("Support by Fan.")
+    .setFooter("Support by Fan.#7108 discord.gg/moneypower")
     .addFields(
                 
                 {
                     name: "`🔒` Voice Manager",
-                    value: "`Name` `Limit` `Channelinfo`",
+                    value: "`Help` `Bitrate`, `Name`, `Channelinfo`, `Transfer`, `Limit`, `Blacklist`, `Whitelist`, `Lock`, `Voice`",
                     inline: false
                 }
            
