@@ -1,6 +1,4 @@
-<h1>discord.js v12</h1><br>
-![BANNER](https://user-images.githubusercontent.com/75095826/128488777-c8a0def3-93be-4c67-86ea-09ae7c67abb2.png)<br>
-![JSQ](https://user-images.githubusercontent.com/75095826/128624154-95a53acb-89d1-4b03-a6b5-6e9a3d8a9b21.png)
+<h1>discord.js v12</h1><br>![BANNER](https://user-images.githubusercontent.com/75095826/128791960-ba2a8588-33cb-4557-9191-a6b69ae3ba8d.png)
 
 <h1>Temporary Voice Channel</h1><br>
 <h3>Please configure the category and the channel</h3>
