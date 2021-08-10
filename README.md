@@ -1,4 +1,4 @@
-<h1>discord.js v12</h1>
+<h1>discord.js v12</h1><br>
 ![BANNER](https://user-images.githubusercontent.com/75095826/128488777-c8a0def3-93be-4c67-86ea-09ae7c67abb2.png)
 ![JSQ](https://user-images.githubusercontent.com/75095826/128624154-95a53acb-89d1-4b03-a6b5-6e9a3d8a9b21.png)
 
